@@ -30,4 +30,5 @@ jobs:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_TOKEN }}' # Ganti nama secret ini jika berbeda
           projectId: 'proyek-nusantara-autokeren'
-          channelId: live # 'live' untuk production, atau bisa juga untuk preview
+          channelId: live #
+          target: 'website-tentang-rasa-dan--186280' 
