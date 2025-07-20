@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "target": "website-tentang-rasa-dan--186280",
+    "public": "out",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
